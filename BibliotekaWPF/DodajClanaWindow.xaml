@@ -6,8 +6,8 @@
         xmlns:local="clr-namespace:BibliotekaWPF"
         mc:Ignorable="d"
         Title="DodajClanaWindow" Height="450" Width="800">
-    <DockPanel Margin="0,0,0,-4">
-        <UniformGrid Columns="4" DockPanel.Dock="Bottom" Height="117">
+    <DockPanel>
+        <UniformGrid Columns="4" DockPanel.Dock="Bottom" Height="115">
             <Label FontSize="24">Ime:</Label>
             <TextBox FontSize="24"></TextBox>
 
@@ -20,7 +20,7 @@
         </UniformGrid>
         <StackPanel Margin="0,0,0,218">
             <Label FontSize="10" Margin="20" HorizontalAlignment="Center" FontWeight="DemiBold" Content="Dodavanje novog clana" Width="120" Height="26" />
-            <Label FontSize="10" Margin="0 0 50" HorizontalAlignment="Center" Content="Unesite informacije o novom clanu" Width="162" Height="32" />
+            <Label FontSize="10" HorizontalAlignment="Center" Content="Unesite informacije o novom clanu" Width="162" Height="32" />
 
         </StackPanel>
     </DockPanel>
