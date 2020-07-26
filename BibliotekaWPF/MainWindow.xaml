@@ -1,0 +1,23 @@
+﻿<Window x:Class="BibliotekaWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BibliotekaWPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <DockPanel>
+        <UniformGrid Columns="5" DockPanel.Dock="Bottom">
+            <Button FontSize="24" Click="DodajClana">Dodaj Clana</Button>
+            <Button FontSize="24" Margin="0,0,-1,0">Lista Clanova</Button>
+            <Button FontSize="24">Dodaj Knjigu</Button>
+            <Button FontSize="24" Margin="0,0,-11,0">Lista Knjiga</Button>
+            <Button FontSize="24">Izdaj knjigu</Button>
+        </UniformGrid>
+        <StackPanel>
+            <Label FontSize="60" Margin="50" FontWeight="Bold" Content="Biblioteka v0.0.1" Width="474" Height="109" />
+            <Label FontSize="12" Margin="-100" Content="Odaberite jednu od navedenih opcija dole.." Width="246" Height="113"/>
+        </StackPanel>
+        
+    </DockPanel>
+</Window>
